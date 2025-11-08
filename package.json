@@ -7,7 +7,9 @@
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "buildWin": "npx electron-packager . arrestailsistema --platform=win32 --arch=x64 --out=dist --overwrite",
-    "buildMac": "npx electron-packager . arrestailsistema --platform=darwin --arch=x64 --out=dist --overwrite",
+    "buildMacUniversal": "npx electron-packager . arrestailsistema --platform=darwin --arch=universal --out=dist --overwrite",
+    "buildMacx86": "npx electron-packager . arrestailsistema --platform=darwin --arch=x64 --out=dist --overwrite",
+    "buildMacArm": "npx electron-packager . arrestailsistema --platform=darwin --arch=arm64 --out=dist --overwrite",
     "buildLinux": "npx electron-packager . arrestailsistema --platform=linux --arch=x64 --out=dist --overwrite"
   },
   "private": true,

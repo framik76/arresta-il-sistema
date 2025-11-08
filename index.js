@@ -14,7 +14,7 @@ app.on("ready", () => {
     mainWindow.show();
     mainWindow.fullScreen = true;
 
-    mainWindow.loadFile(path.join(__dirname, "index.html"));
+    mainWindow.loadFile(path.join(__dirname, "index2.html"));
 
     // Gestione chiusura in fullscreen
     mainWindow.on('close', (e) => {
